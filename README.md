@@ -1,4 +1,6 @@
 #AppFigures API Client
+[![Gem Version](https://badge.fury.io/rb/appfigures_client.svg)](http://badge.fury.io/rb/appfigures_client)
+[![Build Status](https://travis-ci.org/addmitriev/appfigures_client.svg)](https://travis-ci.org/addmitriev/appfigures_client)
 
 A Ruby wrapper for appfigures.com API
 ##Installation
