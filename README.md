@@ -3,7 +3,7 @@
 A Ruby wrapper for appfigures.com API
 ##Installation
 
-In your Gemfile you need to add the `materialize-sass` gem:
+In your Gemfile you need to add the `appfigures_client` gem:
 ```ruby
 gem 'appfigures_client'
 ```
@@ -46,7 +46,7 @@ api.ranks.snapshot(options = {}) # returns ranks report
 * Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
 * Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
 
-== Copyright
+## Copyright
 
 Copyright (c) 2015 Aleksey Dmitriev. See LICENSE.txt for
 further details.
