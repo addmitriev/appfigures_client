@@ -11,7 +11,9 @@ ranks:
   default: 'ranks/'
   snapshots: 'ranks/snapshots/'
 featured: 'featured/'
-reviews: 'reviews/'
+reviews:
+  default: 'reviews/'
+  count: 'reviews/count/'
 events: 'events/'
 archive: 'archive/'
 users: 'users/'

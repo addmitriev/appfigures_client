@@ -40,6 +40,10 @@ module AppfiguresClient
       @ranks ||= AppfiguresClient::Endpoints::Ranks.new(self, @routes[:ranks])
     end
 
+    def reviews
+      @ranks ||= AppfiguresClient::Endpoints::Reviews.new(self, @routes[:reviews])
+    end
+
     def request
       @request
     end

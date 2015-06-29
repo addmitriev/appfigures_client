@@ -6,6 +6,7 @@ require 'appfigures_client/endpoints/products'
 require 'appfigures_client/endpoints/sales'
 require 'appfigures_client/endpoints/ads'
 require 'appfigures_client/endpoints/ranks'
+require 'appfigures_client/endpoints/reviews'
 require 'net/http'
 require 'json'
 
