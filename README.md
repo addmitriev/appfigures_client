@@ -14,7 +14,7 @@ $ bundle install
 Or install it separately:
 
 ```console
-$ gem install materialize-sass
+$ gem install appfigures_client
 ```
 ##Usage
 For more information read http://docs.appfigures.com/
