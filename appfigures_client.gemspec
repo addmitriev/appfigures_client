@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.authors  = ['Aleksey Dmitriev']
   
   s.description = <<-EOF
-    Long description
+    A Ruby wrapper for appfigures.com API
 EOF
   
   dependencies = [
