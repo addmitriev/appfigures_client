@@ -1,8 +1,42 @@
-= appfigures_client
+#AppFigures API Client
 
-Description goes here.
+A Ruby wrapper for appfigures.com API
+##Installation
 
-== Contributing to appfigures_client
+In your Gemfile you need to add the `materialize-sass` gem:
+```ruby
+gem 'appfigures_client'
+```
+And then run the bundler and restart your server to make the files available through the pipeline:
+```console
+$ bundle install
+```
+Or install it separately:
+
+```console
+$ gem install materialize-sass
+```
+##Usage
+For more information read http://docs.appfigures.com/
+
+```ruby
+require 'appfigures_client'
+api = AppfiguresClient.init(USERNAME, PASSWORD, CLIENT_KEY)
+api.products.search(options={}) # return products list
+api.products.get(id) # return product by id
+api.products.all(store = nil) # returns products list from store
+api.sales.search(options = {}) # return sales report
+api.sales.search_by_regions(options = {}) # return sales report by regions
+api.ads.search(options = {}) # returns ads report
+api.reviews.search(options = {}) # returns reviews 
+api.reviews.counts(options = {}) # returns review counts
+api.ranks.search(options = {}) # returns ranks report
+api.ranks.snapshot(options = {}) # returns ranks report
+
+```
+
+
+## Contributing
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
